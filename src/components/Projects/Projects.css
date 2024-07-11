@@ -1,0 +1,52 @@
+.projects {
+    /* padding: 10px; */
+}
+
+.projects-tab {
+    background-color: #ffffff;
+    border-top: 1px solid #2b3035;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #2b3035;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.project-item__id {
+    color: rgb(167, 167, 167);
+}
+
+.project-item__name {
+    display: flex;
+    min-width: 40%;
+
+}
+
+.project-item__badge {
+    margin-left: 5px;
+}
+
+.project-add {
+    padding: 20px;
+}
+
+.project-add__label {
+    color: white;
+}
